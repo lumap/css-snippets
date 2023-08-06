@@ -1,4 +1,5 @@
 /* Long bios for users */
-[class*=userPopoutOverlayBackground-] [class*=lineClamp2Plus-] {
+[class*=userPopoutOverlayBackground-] [class*=lineClamp2Plus-],
+[class*=userProfileModalOverlayBackground-] [class*=lineClamp2Plus-]{
   -webkit-line-clamp: 190 !important;
 }
