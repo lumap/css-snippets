@@ -1,9 +1,16 @@
-[class*=accountProfilePopoutWrapper-] > div > div > [class*=bannerSVGWrapper-],
-[class*=accountProfilePopoutWrapper-] > div > div > [class*=avatarWrapper-],
-[class*=accountProfilePopoutWrapper-] > div > div > [class*=profileBadges-],
-[class*=accountProfilePopoutWrapper-] > div > div > [class*=userPopoutOverlayBackground-] > [class*=divider-],
-[class*=accountProfilePopoutWrapper-] > div > div > [class*=userPopoutOverlayBackground-] > [class*=section-],
-[class*=accountProfilePopoutWrapper-] > div > div > [class*=userPopoutOverlayBackground-] > [class*=scroller-]
+/* User popout */
+[class*=accountProfilePopoutWrapper-] [class*=userPopoutInner-]>:not(:last-child),
+[class*=accountProfilePopoutWrapper-] [class*=userPopoutOverlayBackground-]>:not(#account),
+[class*=accountProfilePopoutWrapper-] [class*=separator]
 {
-  display: none;
+    display: none;
+}
+[class*=accountProfilePopoutWrapper-] [class*=userPopoutOverlayBackground-] {
+    margin: 0;
+}
+[class*=accountProfilePopoutWrapper-] {
+    border-radius: 8px
+}
+[class*=accountProfilePopoutWrapper-] [class*=userPopoutOuter-] {
+    width: 300px !important;
 }
