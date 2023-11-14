@@ -1,0 +1,14 @@
+/* User popout */
+[class*=accountProfilePopoutWrapper] [class*=bannerSVGWrapper],
+[class*=accountProfilePopoutWrapper] [class*=profileEffects],
+[class*=accountProfilePopoutWrapper] [class*=avatarWrapper],
+[class*=accountProfilePopoutWrapper] [class*=profileBadges],
+[class*=accountProfilePopoutWrapper] [class*=section],
+[class*=accountProfilePopoutWrapper] [class*=divider]
+{
+    display: none;
+}
+
+[class*=accountProfilePopoutWrapper] .userPopoutOverlayBackground_d8afa4 {
+    margin: 8px
+}
